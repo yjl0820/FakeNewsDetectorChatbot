@@ -1,5 +1,5 @@
 # FakeNewsDetectorChatbot
-Fake News Detecting Chatbot using RNN and LSTM with Keras and Discord
+Fake News Detecting Chatbot using RNN and LSTM with Keras and Discord (HackPSU 2020 Project)
 
 ## Installation/Setup Guide
 
