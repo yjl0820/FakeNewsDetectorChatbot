@@ -32,6 +32,9 @@ In order to use this program, Discord's Bot API is required. Please follow below
 Imagine, what if the news you read were apparently FAKE? Our smart Discord Chatbot “Fake News Detector” identifies the credibility of news articles and eliminates any possibility of you falling for it.
 ## What it does
 
+When a user types the title of an article or a publication, the chatbot states the likelihood of the news to be fake . The probability is then displayed as a percentage. Inputting title has been chosen instead of content because content can vary widely among each publication and we thought the software will be most widely used by many users when it is as easy as to just type title of news and chatbot can just give a probability of whether it is fake news
+
+
 ## How we built it
 
 ### Inspiration
