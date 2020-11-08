@@ -94,3 +94,6 @@ Can be implemented in various social media platform, Reddit where people discuss
 
 
 
+## Data:
+
+[link](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)
