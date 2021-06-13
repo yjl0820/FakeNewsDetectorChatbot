@@ -7,10 +7,10 @@ Jun Ki Ahn, Daniel Jung, Yoojin Lim, Joshua Chung , Inae Choi
 ## Installation/Setup Guide
 
 ### 1. Discord Bot API
-In order to use this program, Discord's Bot API is required. Please follow below step to get Discord Bot API:
-  1. Login to Discord and Go to https://discord.com/developers/applications
-  2. Create New Application by clicking the button right top corner of the screen
-  3. Go to your discord and create a server
+In order to use this program, Discord's Bot API is required. Please follow the steps below for access:
+  1. Login to Discord then go to Discord Developers Portal or search https://discord.com/developers/applications .
+  2. Click on the "New Application" button on the top right corner of the page.
+  3. Return to Discord Channels then Add a Server
   4. Create Bot and copy the Bot's token code
   5. Got to the OAuth2 tab and authenticate your API to add your bot to your Discord server
   
@@ -32,22 +32,25 @@ In order to use this program, Discord's Bot API is required. Please follow below
 
  ## Inspiration
 
-Imagine, what if the news you read were apparently FAKE? Our smart Discord Chatbot “Fake News Detector” identifies the credibility of news articles and eliminates any possibility of you falling for it.
+  Imagine, what if the news you read were apparently FAKE? Our smart Discord Chatbot “Fake News Detector” identifies the credibility of news articles and eliminates any possibility of you falling for it.
 ## What it does
 
-When a user types the title of an article or a publication, the chatbot states the likelihood of the news to be fake . The probability is then displayed as a percentage. Inputting title has been chosen instead of content because content can vary widely among each publication and we thought the software will be most widely used by many users when it is as easy as to just type title of news and chatbot can just give a probability of whether it is fake news
+  When a user types the title of an article or a publication, the chatbot states the likelihood of the news to be fake . The probability is then displayed as a percentage. Inputting title has been chosen instead of content because content can vary widely among each publication and we thought the software will be most widely used by many users when it is as easy as to just type title of news and chatbot can just give a probability of whether it is fake news
 
 
 ## How we built it
 
 ### Inspiration
-Living through chaotic 2020, our team members agreed that it is crucial to follow up with the most recent issues.
-As students who are still in the process of establishing our societal preference, we are eager to keep what we hear and see as impartial until everything has been verified. While we know the press is the best source to catch up on what happens around the world, its aspect of the need to hook and get attention from the general public somehow makes it hard to take it in as an Apocrypha and often makes us face the fake news.
-Therefore, we decided to build software that would fact check any publications. While considering many kinds of software with AI, the chatbot customer services inspired us the most as we all have experienced its user-friendliness. Hence, we concluded to build a simple, fast, precise, and interactive chatbot that would let us know the rate of the factuality of each article just by typing the headline on the chat.
+  Living through chaotic 2020, our team members agreed that it is crucial to follow up with the most recent issues.
+As students who are still in the process of establishing our societal preference, we are eager to keep what we hear and see impartial until everything is verified. While we know the press is one of the best source to catch up on events around the world, its aspect of the need to hook and attract attention from the general public somehow makes it look apocryphal and often makes us face fake news unanticipated.
+  
+  Therefore, we decided to build a software that would fact check any publications. While considering many kinds of softwares with an AI, the chatbot customer services inspired us the most as we all have experienced its user-friendliness. Hence, we concluded to build a simple, fast, precise, and interactive chatbot that would let us know the rate of the factuality of each article just by typing the headline on the chat.
+
 
 ### What it does
-When a user types the title of an article or a publication, the chatbot states the likelihood of the news to be fake. The probability is then displayed as a percentage. Inputting title has been chosen instead of content because content can vary widely among each publication and we thought the software will be most widely used by many users when it is as easy as to just type title of news and chatbot can just give a probability of whether it is fake news
-
+When the user types the title of an article or a publication, the chatbot states the likelihood of the news to be fake. The probability is then displayed as a percentage. Because articles include massive information which varies by its content, article title is used as an input variable. We expected the simplicity, to just type in the title to get the probability of whether it is fake news, of the system to be a breeze for users and better approachable.
+  
+  
 ### How we built it:
  The Fake News Detector chatbot we built is deployed in Discord messaging software and run by python codes. The codes are based upon python libraries such as Pandas, Numpy, Scikit Learn, and Keras. 
 
@@ -63,7 +66,7 @@ Although we did face countless awful challenges before coding, just as “well b
 We faced many issues such as security measures while connecting the python with the discord chatbot. For example, the terminal would output credential issues, which is an issue that happens in MacOS to prevent hackers and other malicious software from gaining access to the file. Secondly, integrating a deep learning model with Discord bot API was also a challenge due to error during hosting servers and also first-time use of Discord API
  
 ### 2. Understanding of Deep Learning Model
-Applying RNN and LSTM was difficult as it was our first time using it. To understand, we spent nearly half of our given time examining through reports and papers, causing us to have a slow starting point. The websites used for understanding are:
+Applying RNN and LSTM was difficult as it was our first time using it. To understand, we spent nearly half of our given time examining through reports and papers, causing us to have a slow starting point. The websites used to better understand were:
 
 [link](https://builtin.com/data-science/recurrent-neural-networks-and-lstm)
 [link](https://towardsdatascience.com/learn-how-recurrent-neural-networks-work-84e975feaaf7)
