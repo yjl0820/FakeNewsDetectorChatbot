@@ -2,7 +2,7 @@
 Fake News Detecting Chatbot using RNN and LSTM with Keras and Discord (HackPSU 2020 Project)
 
 ### Collaborator
-Jun Ki Ahn, Daniel Jung, Yujin Lim, Joshua Chung , Inae Choi
+Jun Ki Ahn, Daniel Jung, Yoojin Lim, Joshua Chung , Inae Choi
 
 ## Installation/Setup Guide
 
